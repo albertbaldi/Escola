@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Escola.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Escola.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Escola.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Escola.Application.dll": {}
+        }
+      },
+      "Escola.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Escola.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Escola.Domain.dll": {}
+        }
+      },
+      "Escola.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Escola.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Escola.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Escola.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Escola.Application/1.0.0": {
+      "type": "project",
+      "path": "../Escola.Application/Escola.Application.csproj",
+      "msbuildProject": "../Escola.Application/Escola.Application.csproj"
+    },
+    "Escola.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Escola.Domain/Escola.Domain.csproj",
+      "msbuildProject": "../Escola.Domain/Escola.Domain.csproj"
+    },
+    "Escola.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../Escola.Infra.Data/Escola.Infra.Data.csproj",
+      "msbuildProject": "../Escola.Infra.Data/Escola.Infra.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Escola.Application >= 1.0.0",
+      "Escola.Domain >= 1.0.0",
+      "Escola.Infra.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/albert/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/albert/source/repos/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj",
+      "projectName": "Escola.Infra.Ioc",
+      "projectPath": "/Users/albert/source/repos/Escola/Escola.Infra.Ioc/Escola.Infra.Ioc.csproj",
+      "packagesPath": "/Users/albert/.nuget/packages/",
+      "outputPath": "/Users/albert/source/repos/Escola/Escola.Infra.Ioc/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/albert/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/albert/source/repos/Escola/Escola.Application/Escola.Application.csproj": {
+              "projectPath": "/Users/albert/source/repos/Escola/Escola.Application/Escola.Application.csproj"
+            },
+            "/Users/albert/source/repos/Escola/Escola.Domain/Escola.Domain.csproj": {
+              "projectPath": "/Users/albert/source/repos/Escola/Escola.Domain/Escola.Domain.csproj"
+            },
+            "/Users/albert/source/repos/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj": {
+              "projectPath": "/Users/albert/source/repos/Escola/Escola.Infra.Data/Escola.Infra.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

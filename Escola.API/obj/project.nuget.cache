@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5o5XF6e3IJs=",
+  "success": true,
+  "projectFilePath": "/Users/albert/source/repos/Escola/Escola.API/Escola.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/albert/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "/Users/albert/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
