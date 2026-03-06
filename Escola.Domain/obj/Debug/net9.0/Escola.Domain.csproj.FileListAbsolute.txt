@@ -1,0 +1,12 @@
+/Users/albert/source/repos/Escola/Escola.Domain/bin/Debug/net9.0/Escola.Domain.deps.json
+/Users/albert/source/repos/Escola/Escola.Domain/bin/Debug/net9.0/Escola.Domain.dll
+/Users/albert/source/repos/Escola/Escola.Domain/bin/Debug/net9.0/Escola.Domain.pdb
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/Escola.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/Escola.Domain.AssemblyInfoInputs.cache
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/Escola.Domain.AssemblyInfo.cs
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/Escola.Domain.csproj.CoreCompileInputs.cache
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/Escola.Domain.sourcelink.json
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/Escola.Domain.dll
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/refint/Escola.Domain.dll
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/Escola.Domain.pdb
+/Users/albert/source/repos/Escola/Escola.Domain/obj/Debug/net9.0/ref/Escola.Domain.dll
