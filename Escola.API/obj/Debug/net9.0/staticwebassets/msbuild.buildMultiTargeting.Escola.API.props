@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/Escola.API.props" />
-</Project>
