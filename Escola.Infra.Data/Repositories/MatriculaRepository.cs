@@ -38,12 +38,12 @@ public class MatriculaRepository : IMatriculaRepository
 
     public async Task<IEnumerable<Matricula>> GetAllAsync()
     {
-        return await _context.Matricula.Where(x => x.Excluido == false).ToListAsync();
+        return await _context.Matricula.Include(m => m.Turma).ThenInclude(t => t.Curso).Where(x => x.Excluido == false).ToListAsync();
     }
 
     public async Task<Matricula> GetByIdAsync(int id)
     {
-        return await _context.Matricula.Where(x => x.Excluido == false && x.Id == id).FirstOrDefaultAsync();
+        return await _context.Matricula.Include(m => m.Turma).ThenInclude(t => t.Curso).Where(x => x.Excluido == false && x.Id == id).FirstOrDefaultAsync();
     }
 
     public async Task<Matricula> UpdateAsync(Matricula matricula)
