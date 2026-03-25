@@ -8,5 +8,6 @@ public class Curso
     public string Nome { get; set; }
     public string Descricao { get; set; }
     public bool Excluido { get; set; }
+
     public ICollection<Turma> Turmas { get; set; }
 }

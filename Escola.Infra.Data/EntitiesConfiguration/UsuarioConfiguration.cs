@@ -16,5 +16,10 @@ public class UsuarioConfiguration : IEntityTypeConfiguration<Usuario>
         builder.Property(u => u.PasswordHash).IsRequired();
         builder.Property(u => u.PasswordSalt).IsRequired();
         builder.Property(u => u.Perfil).IsRequired().HasMaxLength(50);
+
+        builder.HasMany(u => u.Matriculas)
+            .WithOne(m => m.Usuario)
+            .HasForeignKey(m => m.UsuarioId)
+            .OnDelete(DeleteBehavior.NoAction);
     }
 }

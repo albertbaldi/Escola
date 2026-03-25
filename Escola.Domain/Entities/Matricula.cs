@@ -11,6 +11,7 @@ public class Matricula
     public DateTime DataExpiracao { get; set; }
     public bool Ativa { get; set; }
     public bool Excluido { get; set; }
+
     public ICollection<Nota> Notas { get; set; }
     public Usuario Usuario { get; set; }
     public Turma Turma { get; set; }
